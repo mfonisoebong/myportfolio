@@ -7,24 +7,40 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "MBA",
+    url: "https://mbathebrand.com",
+    year: 2024,
+    description: "MBA is a brand that is focused on providing quality suites and suites accessories for MBA customers"
+  },
+  {
+    title: "Spruce",
+    url: 'https://sprucecty.com',
+    year: 2024,
+    description: "Explore our new arrivals and elevate your style to the next level! With our collection of unique styles and designs, you can be sure to find the perfect piece for any occasion."
+  },
+  {
+    title: "Regain Pharmacy",
+    url: 'https://regainpharmacy.com',
+    year: 2024,
+    description: "Your trusted destination for pharmaceutical needs, we offer you the support when you need it the most, plus discreet doorstep delivery."
+  },
+  {
+    title: "Chowopa",
+    url: "https://chowopa.com",
     year: 2023,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+    description: "Your trusted food delivery service, On the Go. The meals you love delivered with care wherever you are."
   },
   {
-    title: "Project Two",
+    title: "TBM Events",
+    url: "https://thetbmevents.com",
+    year: 2023,
+    description: "Discover Unforgettable Experiences: Your Gateway to Exclusive Events and Seamless Ticketing!"
+  },
+  {
+    title: "Ployco Music",
+    url: "https://ployco.com",
     year: 2022,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+    description: "We provide promotional services, such as playlist placement and marketing campaigns, to help get your music in front of more listeners"
   },
-  {
-    title: "Project Three",
-    year: 2021,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-  },
+
 ];
