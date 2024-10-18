@@ -7,9 +7,7 @@ export const metadata = {
 };
 
 export default function BlogPosts() {
-    let allBlogs = getBlogPosts();
-
-    console.log(allBlogs);
+  let allBlogs = getBlogPosts();
 
   return (
     <section>
