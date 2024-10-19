@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "@types/node": "22.5.0",
@@ -30,6 +33,7 @@
     "typescript": "5.5.4"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.5",
     "@tailwindcss/typography": "^0.5.14",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
