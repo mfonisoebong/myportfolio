@@ -3,8 +3,9 @@ import { ThemeSwitch } from "./theme-switch";
 import { metaData } from "../config";
 
 const navItems = {
-  "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
+  "/blog": { name: "Blog",  target: "_self" },
+  "/projects": { name: "Projects" ,  target: "_self"},
+  "/resume.pdf": {name: "Resume", target: "_blank"}
 };
 
 export function Navbar() {
@@ -17,9 +18,10 @@ export function Navbar() {
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
-          {Object.entries(navItems).map(([path, { name }]) => (
+          {Object.entries(navItems).map(([path, { name, target }]) => (
             <Link
               key={path}
+              target={target}
               href={path}
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
             >
