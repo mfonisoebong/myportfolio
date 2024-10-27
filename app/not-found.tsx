@@ -20,7 +20,7 @@ export default function NotFound() {
       <Image
         src={image}
         className="object-cover w-8/12 md:w-72"
-        alt="Error"
+        alt="404"
         width={400}
         height={400}
       />
