@@ -22,7 +22,7 @@ export default function Projects() {
           >
             <div className="flex flex-col">
               <div className="w-full flex justify-between items-baseline">
-                <span className="text-black dark:text-white font-medium tracking-tight">
+                <span className="text-black dark:text-white font-medium tracking-tight underline hover:font-bold">
                   {project.title}
                 </span>
                 <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-sm">
