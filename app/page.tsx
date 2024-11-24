@@ -32,7 +32,7 @@ export default function Page() {
         <p>
           I currently work as a Backend developer at{" "}
           <strong>Maaxdo Technologies</strong>. I've also worked as a freelance
-          developer for the past 3 years.
+          developer for the past 4 years.
         </p>
         <p>
           I am passionate about building software solutions that tackle
